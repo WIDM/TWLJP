@@ -38,6 +38,14 @@ In this study, we collect a dataset called TWLJP, which contains 342,754 indictm
 We implement three competitive Baselines: Multi-task BERT/[Lawformer](https://aclanthology.org/2020.coling-main.88/) and [Topjudge](https://aclanthology.org/D18-1390/)
 
 ### Prefomance
-The performance of baselines and our model Message-passing are as follows.
+The performance of baselines and our model Message-passing are as follows. 
+Mi means Micro, Ma means Macro.
 
+Performance of Law prediction on TWLJP dataset:
+![](/img/law_performance.JPG)
 
+Performance of Article prediction on TWLJP dataset:
+![](/img/article_performance.JPG)
+
+Performance of Charge prediction on TWLJP dataset:
+![](/img/charge_performance.JPG)
