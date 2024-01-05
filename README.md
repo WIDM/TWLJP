@@ -7,8 +7,6 @@ In this study, we collect a dataset called TWLJP, which contains 342,754 indictm
 
 ## Dataset
 
-### Annotation Example
-
 ### Data Format
 
 ``` json
