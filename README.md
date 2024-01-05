@@ -12,14 +12,14 @@ In this study, we collect a dataset called TWLJP, which contains 342,754 indictm
 ``` json
 {
   "fact": "一、緣坐落新北市...",
-  "file": "臺灣新北地方檢察署 108 年度 偵 字第 8909 號刑事起訴書.txt",
+  "file": "臺灣新北地方檢察署 000年度 偵 字第 0000 號刑事起訴書.txt",
   "meta":
     {
       "relevant_articles": [["水土保持法", "第32條"]],
       "#_relevant_articles": 1,
       "relevant_articles_org": ["水土保持法第32條"],
       "accusation": "水土保持法",
-      "criminals": ["王世昌"],
+      "criminals": ["王OO"],
       "#_criminals": 1,
       "term_of_imprisonment":
       {
@@ -40,10 +40,10 @@ The performance of baselines and our model Message-passing are as follows.
 Mi means Micro, Ma means Macro.
 
 Performance of Law prediction on TWLJP dataset:
-![](/img/law_performance.JPG)
+![Performance of Law prediction on TWLJP dataset](/img/law_performance.JPG)
 
 Performance of Article prediction on TWLJP dataset:
-![](/img/article_performance.JPG)
+![Performance of Article prediction on TWLJP dataset](/img/article_performance.JPG)
 
 Performance of Charge prediction on TWLJP dataset:
-![](/img/charge_performance.JPG)
+![Performance of Charge prediction on TWLJP dataset](/img/charge_performance.JPG)
